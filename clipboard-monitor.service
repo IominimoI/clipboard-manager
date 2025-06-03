@@ -1,0 +1,17 @@
+[Unit]
+Description=Clipboard History Monitor
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=%h/.Xauthority
+ExecStart=/usr/local/bin/clipboard-manager monitor
+Restart=always
+RestartSec=10s
+
+[Install]
+WantedBy=graphical-session.target
+
+# File location: ~/.config/systemd/user/clipboard-monitor.service

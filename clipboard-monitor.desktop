@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Clipboard Monitor
+Exec=/usr/local/bin/clipboard-manager monitor
+Comment=Monitor clipboard for history
+X-GNOME-Autostart-enabled=true
+StartupNotify=false
+Terminal=false
+
+# File location: ~/.config/autostart/clipboard-monitor.desktop
