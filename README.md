@@ -33,7 +33,7 @@ cd clipboard-manager
 ### 2. Make Script Executable
 
 ```bash
-chmod +x clipboard-manager.py
+chmod +x clipboard-manager.py 
 ```
 
 ### 3. Create Symbolic Link for Easy Access
